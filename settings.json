@@ -1,0 +1,105 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "default"
+    },
+    
+    "editor.fontSize": 13,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.startupEditor": "none",
+    "editor.linkedEditing": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "git.autofetch": true,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.wait": 50,
+    "C_Cpp.codeAnalysis.updateDelay": 1000,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Aura Soft Dark",
+    "debug.javascript.debugByLinkOptions": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlineSuggest.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text-and-comment",
+        "foreground": "black",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue",
+        "gutterIcon": true,
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "foreground": "black",
+            "background": "white",
+            "iconColour": "white",
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "white",
+            "background": "gray",
+            "iconColour": "gray",
+        },
+        "COMMENT": {
+            "icon": "note",
+            "foreground": "white",
+            "background": "gray",
+            "iconColour": "gray",
+        },
+        "FIXME": {
+            "foreground": "black",
+            "background": "yellow",
+            "iconColour": "yellow",
+        },
+        "BUG": {
+            "foreground": "black",
+            "background": "red",
+            "iconColour": "red",
+        },
+        "[ ]": {
+            "icon": "check",
+            "foreground": "black",
+            "background": "white",
+            "iconColour": "yellow",
+        },
+        "[x]": {
+            "icon": "check",
+            "foreground": "white",
+            "background": "green",
+            "iconColour": "green",
+        }
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "NOTE",
+        "COMMENT",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+    "security.workspace.trust.untrustedFiles": "open",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+}
